@@ -100,6 +100,11 @@ height: 700px;
 
 @media (max-width:460px ){
 
+#service-desc{
+    height: 100%;
+    width: 83%;
+
+}
  #service-list{
     height: 100%;
     width: 17%;
@@ -110,7 +115,7 @@ height: 700px;
 #service-list p{
     width: 50%;
     /* border-bottom: #2b2c2c solid 5px; */
-    font-size: 13px;
+    font-size: 11px;
     margin: 10px;
     
 }

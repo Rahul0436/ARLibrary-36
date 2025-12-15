@@ -21,7 +21,7 @@ h2{
 
 
 .about-content{
-    height: 270px;
+    height: 400px;
     width: 100%;
     border-left: 5px solid aqua;
     padding: 10px;
@@ -39,14 +39,19 @@ h2{
 @media (max-width:879px )  {
    
     .about-content{
-    height: 270px;
+    height: 350px;
     width: 100%;
     border-left: 5px solid aqua;
     padding: 10px;
     background-color: #06132e;
 }
     .about-content  p{
-    font-size: 12px;
+    font-size: 8px;
+    text-align: left;
+    color: white;
+}
+   .about-content  ul li{
+    font-size: 8px;
     text-align: left;
     color: white;
 }
