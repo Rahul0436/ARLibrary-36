@@ -86,6 +86,8 @@ function LoadData(url){
 // })
 
 
+
+
     // const text = "M-Tech , B-Tech , Diploma , Science , Arts  Books ";
  const words = ["M-Tech ", "B-Tech", "Diploma", "Science", "Arts "];
     let wordIndex = 0;
