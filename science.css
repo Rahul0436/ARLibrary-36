@@ -1,0 +1,19 @@
+    .pdf-container {
+      width: 100%;
+      height: 600px;
+      display: none; /* hidden by default */
+      margin-top: 20px;
+      border: 2px solid #007bff;
+    }
+    .pdf-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .pdf-btn:hover {
+      background-color: #0056b3;
+    }

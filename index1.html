@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Home Page</title>
+    <style>
+      @media (max-width:879px )  {
+   
+    header{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(16, 16, 61); */
+    background-color: #06132e;
+   color: white;
+  box-shadow:  5px 3px 15px grey;
+    font-family: Calibri;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#main-sec{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(235, 233, 233); */
+    /* border: 2px solid black; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+
+}
+
+#logo{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#address{
+    height: 280px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+#logo-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+#logo-lib{
+    font-size: 10px;
+    margin-left: 5px;
+    font-family: Magneto;
+    color: rgb(245, 53, 19);
+    border-bottom: aqua solid 2px;
+
+}
+   
+}
+
+@media (max-width:530px )  {
+   
+    header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #06132e;
+   color: white;
+  box-shadow:  5px 3px 15px grey;
+    font-family: Calibri;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#logo{
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 10px;
+}
+
+#logo-name{
+    font-size: 9px;
+    font-weight: bold;
+}
+#logo-lib{
+    font-size: 9px;
+    margin-left: 5px;
+    font-family: Magneto;
+    color: rgb(245, 53, 19);
+    border-bottom: aqua solid 2px;
+
+}
+#menu button{
+    height: 30px;
+    width: 100px;
+    /* border: 2px solid aliceblue;; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+    color: white;
+    margin-right: 10px;
+    font-size: 15px;
+}
+#address .fw-bold{
+     font-family: Calibri;
+     font-size: 12px;
+}
+#address ul li{
+    font-size: 10px;
+}
+#footer #logo{
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 10px;
+}
+#footer{
+
+    height: 240px;
+    width: 100%;
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+    background-color: #06132e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+   
+}
+    </style>   
+</head>
+<body>
+
+<!--  -->
+ 
+  <main id="main-sec">
+    <div id="main-part1">
+          <div class="pic">
+            <div class="pic1">
+            
+            </div>
+            
+        </div>
+  
+    </div>
+    <div id="main-part2">
+        <p>Unlock a New Dimension of Reading - With AR Library </p>
+        <div>
+          <p>Come & Explore the Books </p>
+       
+        </div>
+        
+          <button onclick="LoadData1('service.html')">More</button>
+    </div>
+
+
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+  <script src="finisher-header.es5.min.js" type="text/javascript"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </main>
+  
+ <script src="script.js"></script>
+</body>
+</html>

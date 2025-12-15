@@ -1,0 +1,446 @@
+/* Make page take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   color: white;
+    
+}
+header{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(16, 16, 61); */
+    background-color: #06132e;
+   color: white;
+  box-shadow:  5px 3px 15px grey;
+    font-family: Calibri;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#logo{
+    height: 100%;
+    width: 12%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#logo-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+#logo-lib{
+    font-size: 15px;
+    margin-left: 5px;
+    font-family: Magneto;
+    color: rgb(245, 53, 19);
+    border-bottom: aqua solid 2px;
+
+}
+
+
+#menu{
+    height: 100%;
+    width: 80%;
+    /* border:2px solid black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    justify-content: right;
+    font-size: 20px;
+   
+}
+#menu button{
+    height: 40px;
+    width: 120px;
+    /* border: 2px solid aliceblue;; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-decoration: none;
+    color: white; */
+    background-color:transparent;
+    color: white;
+    margin-right: 15px;
+}
+#menu button:hover{
+  height: 40px;
+  width: 120px;
+  border-bottom: aqua solid 2px;
+  /* box-shadow: 0px 2px 10px aqua; */
+  border-radius: 50px;
+  cursor: pointer;
+
+}
+
+
+
+
+
+#main-sec{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(235, 233, 233); */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+/*  */
+
+#main-part1{
+    height: 40vh;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex; 
+    align-items:center;
+    justify-content:space-evenly;
+    /* background-color: #06132e; */
+    
+}
+
+
+
+
+#main-part2{
+    height: 60vh;
+    width: 60%;
+    border: 10px solid #06132e;
+    border-left: none;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: Calibri;
+    padding-top: 130px;
+    box-shadow: 5px 5px 0px grey;
+  
+    
+}
+#main-part2 button{
+    height: 40px;
+    width: 120px;
+    border: 2px solid #06132e;
+    /* border-radius: 20px; */
+    background-color: #06132e;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Calibri;
+    color: white;
+    /* margin-left: 189px; */
+}
+#main-part2 p{
+    /* margin-top: 80px; */
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-right: 10px;
+}
+#main-part2 div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    
+}
+
+
+.pic{
+    height: 300px;
+    width: 300px;
+    border-right: 10px solid #06132e;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("image/radu-marcusu-mbKApJz6RSU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pic1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #06132e;
+    border-left: 10px solid #06132e;
+    border-right: none;
+    border-radius: 50%;
+    text-align: center;
+    background-image: url("1cd31a1f11bdcd6dc6c977312c8baa50.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;      
+
+}
+.pic h3{
+    margin-top: 30px;   
+
+    font-family:Magneto;
+    margin-right: 20px;
+    margin-bottom: 0px;
+     font-size: 25px;
+}
+.pic h2{
+    margin-left: 40px;
+    font-family:Magneto;
+    margin-top: 5px;
+    font-size: 25px;
+    margin-bottom: 1px;
+    
+
+}
+.pic h1{
+    font-size: 60px;
+    color: rgb(245, 53, 19);
+    margin-top:0px;
+   
+}
+
+.pic1:hover{
+    color: #081b29;
+}
+
+
+
+
+
+#footer{
+
+    height: 240px;
+    width: 100%;
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+    background-color: #06132e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#address{
+    height: 280px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+#address .fw-bold{
+     font-family: Calibri;
+     font-size: 800;
+}
+#address a{
+    text-decoration: none;
+    font-family: Calibri;
+}
+
+#copyright{
+    height: 25px;
+    width: 100%;
+    background-color: #06132e;
+    text-align: center;
+    font-family: Calibri;
+}
+#footer .fw-bold:hover{
+   border-bottom: aqua solid 2px   ;
+}
+
+
+.three-d-text {
+  /* font-size: 60px; */
+  color: #fff;
+  /* background: #111; */
+  text-shadow:
+    1px 1px 0 #ccc,
+    2px 2px 0 #bbb,
+    3px 3px 0 #aaa,
+    4px 4px 0 #999,
+    5px 5px 0 #888;
+  padding: 20px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  min-width: 120px;
+  z-index: 1;
+}
+.dropdown-menu div {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+  background-color: #e0e0e0;
+}
+
+@media (max-width:879px )  {
+   
+    header{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: rgb(16, 16, 61); */
+    background-color: #06132e;
+   color: white;
+  box-shadow:  5px 3px 15px grey;
+    font-family: Calibri;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#main-sec{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(235, 233, 233); */
+    /* border: 2px solid black; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+
+}
+
+#logo{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#address{
+    height: 280px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+#logo-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+#logo-lib{
+    font-size: 10px;
+    margin-left: 5px;
+    font-family: Magneto;
+    color: rgb(245, 53, 19);
+    border-bottom: aqua solid 2px;
+
+}
+   
+}
+
+@media (max-width:530px )  {
+   
+    header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #06132e;
+   color: white;
+  box-shadow:  5px 3px 15px grey;
+    font-family: Calibri;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#logo{
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 10px;
+}
+
+#logo-name{
+    font-size: 9px;
+    font-weight: bold;
+}
+#logo-lib{
+    font-size: 9px;
+    margin-left: 5px;
+    font-family: Magneto;
+    color: rgb(245, 53, 19);
+    border-bottom: aqua solid 2px;
+
+}
+#menu button{
+    height: 30px;
+    width: 100px;
+    /* border: 2px solid aliceblue;; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+    color: white;
+    margin-right: 10px;
+    font-size: 15px;
+}
+#address .fw-bold{
+     font-family: Calibri;
+     font-size: 12px;
+}
+#address ul li{
+    font-size: 10px;
+}
+#footer #logo{
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 10px;
+}
+#footer{
+
+    height: 240px;
+    width: 100%;
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+    background-color: #06132e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+   
+}
+
+
+
